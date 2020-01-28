@@ -1,5 +1,6 @@
-# rstudioconf2020_eposter
-pptx file of interactive e-poster about the SETr project, presented at rstudio::conf(2020)  
+# rstudioconf2020_eposter  
+
+interactive pptx file and non-interactive pdf of e-poster about the SETr project, presented at rstudio::conf(2020)  
 
 
 Evolving code for the project is here:  
