@@ -1,0 +1,49 @@
+---
+title: "E-poster from rstudio::conf(2020)"
+output: 
+    github_document:
+        toc: true
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+The pptx file above is interactive. But interactivity is not required - these should make sense if you just scroll through them - so a pdf is here as well.  
+
+## Thoughts for future e-poster presenters  
+
+If you're finding this from the future, because you're presenting an e-poster and want examples, this format worked pretty well. I'd never done an e-poster before so I cobbled together advice I found from online searches and hoped for the best. I don't think any two e-posters were made the same way, so do what works best for you! But here's mine.    
+
+I think this was about the right amount of content, at least for my project - a cover slide and 7 slides with more detail. I mostly kept the cover slide up and moved to more detailed slides as I talked with visitors, based on what they were most interested in. Nobody really clicked around on their own (maybe they would have if I'd wandered away? or they might have kept walking), so it turns out this would have been fine without the magnifying glass options to jump to other slides. The "home" button was helpful though!  
+
+All in all, this was a really fun way to present - it allowed for but didn't require in-depth conversations.
+
+## Poster Abstract  
+
+Can coastal vegetation communities keep up with sea level rise? This is a critical coastal management question, around which many monitoring programs have been developed. Surface Elevation Tables (SETs) are widely used to collect data on the dynamics of tidal wetland communities, through precise measurements of marsh surface over time. Most sites within the network of 29 National Estuarine Research Reserves (NERRs) have been measuring SETs for several years, resulting in a need for tools to process, analyze, and communicate about surface elevation change. This project focused on developing such tools, within a larger workflow, using R, RStudio, and associated packages: a QA/QC app to interact with graphs and tables of raw data and easily identify points that need inspection; click-of-a-button report generation to produce basic analyses of rates of change and comparisons to sea level rise; and clearly annotated visualizations that can be used to communicate the results to both technical and non-technical audiences. We chose these open-source tools so the developed workflow and products would be shareable, reproducible, and useful well into the future, as additional years of data are generated. Familiarity with R is not assumed; these tools and workflows will be easy to implement for any technical personnel. Input from technical and outreach-oriented working groups has ensured that these tools are appropriate and useful to a variety of end-users. Ultimately, site-specific trend analyses and visualizations, a workflow guide, and all associated R scripts will be sent to each of the 15 participating NERRs and made publicly available. From the contributed data, a national synthesis of surface elevation change vs. sea level trends will also be produced. This project has helped standardize and increase the usability of NERR SET data by providing Reserves the tools they need to analyze, understand, and communicate these important, underutilized datasets.
+
+
+## Links to code and other information  
+
+More information about the project from our funding agency, the NERRS Science Collaborative:  
+http://nerrssciencecollaborative.org/project/Cressman18  
+
+Fact sheet:  
+
++  [landing page](http://nerrssciencecollaborative.org/resource/marsh-surface-tracking-sea-level-change-developing-tools-and-visualizations-sentinel-site )
++  [pdf](http://nerrssciencecollaborative.org/media/resources/Cressman-Fact-Sheet-forposting.pdf)  
+
+
+Evolving code for the project:  
+https://github.com/swmpkim/SETr_Reserve_Template  
+
+
+Outputs will eventually be archived at:  
+http://nerrssciencecollaborative.org/
